@@ -1,0 +1,91 @@
+.authBase {
+	height: 100vh;
+	width: 100vw;
+}
+
+.authHeader {
+	width: 100%;
+	height: var(--header-height);
+	background-color: var(--primary-color-light);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	height: 100px;
+	cursor: pointer;
+}
+
+.contentContainer {
+	height: calc(100% - var(--header-height));
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.authHeading {
+	margin-top: 40px;
+	font-weight: 700;
+	font-size: 40px;
+	color: var(--primary-color-darker);
+}
+
+.formContainer {
+	margin-top: 50px;
+	width: 700px;
+}
+
+.formGroup {
+	margin-bottom: 30px;
+	width: 100%;
+	position: relative;
+}
+
+.inputLabel {
+	display: block;
+	font-weight: 700;
+	color: var(--input-bold-color);
+	margin-bottom: 8px;
+}
+
+.authInput {
+	border: none;
+	font-size: 22px;
+	border-bottom: 1px solid var(--underline-color);
+	outline: none;
+	width: 100%;
+}
+
+.forgotPassword {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--primary-color-dark);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.authButton {
+	background-color: var(--primary-color);
+	color: #f7fafc;
+	outline: none;
+	border: none;
+	border-radius: 40px;
+	width: 100%;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.authPageSwitch {
+	margin-top: 18px;
+	color: var(--input-bold-color);
+	text-align: center;
+	font-weight: 600;
+}
+
+.authPageSwitch span {
+	cursor: pointer;
+	color: var(--primary-color-dark);
+}
