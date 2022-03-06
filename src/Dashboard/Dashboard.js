@@ -3,6 +3,7 @@ import { Redirect, withRouter } from "react-router";
 import BarChartCustom from "../Charts/BarChartCustom";
 import DoughnutChartCustom from "../Charts/DoughnutChartCustom";
 import { get } from "../utils/apiRequest";
+import Button from "../utils/Button";
 import { ACCESS_TOKEN } from "../utils/Constants";
 import { deleteCookie, getCookie } from "../utils/Cookies";
 import { LOGIN_PATH } from "../utils/routeUrls";
@@ -50,15 +51,13 @@ function Dashboard(props) {
       <div className="dashTopContainer">
         Welcome <span className="userName">{userData.name}</span>
         <div className="logout">
-          <button
-            className="authButton"
+          <Button
+            label={"Logout"}
             onClick={() => {
               deleteCookie(ACCESS_TOKEN);
               props.history.push(LOGIN_PATH);
             }}
-          >
-            Logout
-          </button>
+          />
         </div>
       </div>
       <div className="whiteLine" />
