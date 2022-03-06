@@ -1,60 +1,60 @@
 .dashboardBase {
-	min-height: 100vh;
-	width: 100vw;
-	background-color: #f4f5f5;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #f4f5f5;
 }
 .dashTopContainer {
-	background-color: #f4f5f5;
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  background-color: #f4f5f5;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .userName {
-	font-weight: 600;
-	padding-left: 10px;
+  font-weight: 600;
+  padding-left: 10px;
 }
 
 .whiteLine {
-	background-color: #fff;
-	width: 70%;
-	height: 8px;
-	margin-left: auto;
-	margin-right: auto;
+  background-color: #fff;
+  width: 70%;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bottomContainer {
-	height: calc(100vh - 108px);
-	width: 100vw;
-	display: flex;
-	padding-top: 20px;
+  height: calc(100vh - 108px);
+  width: 100vw;
+  display: flex;
+  padding-top: 20px;
 }
 
 .leftContainer {
-	width: 60%;
+  width: 60%;
 }
 
 .rightContainer {
-	width: 40%;
+  width: 40%;
 }
 .barChartContainer {
-	height: 400px;
+  height: 400px;
 }
 
 .doughnutChartContainer {
-	height: 400px;
-	/* background-color: blue; */
+  height: 400px;
+  /* background-color: blue; */
 }
 
 .countPercentage {
-	font-size: 22px;
-	color: var(--input-bold-color);
-	display: flex;
-	justify-content: center;
-	margin-top: 35px;
+  font-size: 22px;
+  color: var(--input-bold-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 .logout {
-	position: absolute;
-	right: 5%;
+  position: absolute;
+  right: 5%;
 }
