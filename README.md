@@ -6,7 +6,8 @@ Simple Admin Login Register Dashboard demo web app frontend.
 
 Built using MERN stack.
 
-Backend repo: 
+Backend repo: https://github.com/vishakhg98/Admin-Dashboard-Server
+
 ## Screenshot
 ![Desktop](https://raw.githubusercontent.com/vishakhg98/Admin-Dashboard/master/public/assets/images/screenshot.png)
 
